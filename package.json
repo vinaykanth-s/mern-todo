@@ -1,0 +1,28 @@
+{
+  "name": "mern-todo",
+  "version": "1.0.0",
+  "description": "my first mern stack project",
+  "main": "server.js",
+  "scripts": {
+    "backend": "nodemon backend/server.js --ignore frontend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinaykanth-s/mern-todo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinaykanth-s/mern-todo/issues"
+  },
+  "homepage": "https://github.com/vinaykanth-s/mern-todo#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.7.3",
+    "nodemon": "^2.0.20",
+    "validator": "^13.7.0"
+  }
+}
